@@ -1,0 +1,27 @@
+{
+"users":[
+{
+"username": "user1",
+"firstName": "Nemanja",
+"lastName": "Stojanovic",
+"password": "12345"
+},
+    {
+        "username": "user2",
+        "firstName": "Milos",
+        "lastName": "Petrovic",
+        "password": "54321"
+    },
+    {
+        "username": "user3",
+        "firstName": "Jelena",
+        "lastName": "Tesic",
+        "password": "54321"   
+    },
+    {
+        "username": "user4",
+        "firstName": "Mirko",
+        "lastName": "Dimic",
+        "password": "56789" 
+    }
+]}

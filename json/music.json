@@ -1,0 +1,29 @@
+{
+"songs": [
+	{
+		"id":	   "s1",
+		"title":	" - Kalimba",
+		"artist":   "Mr. Scruff",
+		"file":	 "music/1.mp3"
+	},
+	{
+		"id":	   "s2",
+		"title":	" - Maid with flaxen hair",
+		"artist":   "Richard Stoltzman",
+		"file":	 "music/2.mp3"
+	},
+	{
+		"id":	   "s3",
+		"title":	" - Sleep away",
+		"artist":   "Bob Acri",
+		"file":	 "music/3.mp3"
+	},
+	{
+		"id":	   "s4",
+		"title":	" - Pjanoo",
+		"artist":   "High Contrast",
+		"file":	 "music/4.mp3"
+	}
+
+]
+}

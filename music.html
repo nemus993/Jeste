@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>MDM Visuals</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script> 
+  <script type="text/javascript" src="js/music.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>MDM<a href="home.html">Visuals</a></h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="blog.html">GALLERY</a></li>
+          <li class="current"><a href="music.html">MUSIC</a></li>
+          <li><a href="video.html">VIDEO</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <div id="sidebar_container">    
+      
+          <div id="musicDiv">
+                <ul id="artistPlaylist">
+                    <p>Artists</p>
+				</ul>
+                <ul id="songPlaylist">
+                	<p>Songs</p>
+				</ul>
+				<!--Playlist -->
+            	<div id="nowPlaying">
+                	<p><span class="artist"></span><span class="song"></span></p>
+                    <audio src="" controls> Sorry, your browser does not support our music player. </audio>
+                </div>
+            </div>
+          
+        </div>
+      
+        
+        <div id="content">
+            <img width="350" height="300" src="images/pa_equipment.jpg" />
+            <p>Yes, we can record everything for you, even sound. We have very professional audio studio and equipment with well educated people. Also if you are making a gig, or just a simple party and you want good sound, we are also renting high quality surround spekaers. </p>
+                    
+        </div>
+        
+
+    </div>
+    <footer>
+       <p>Designed and coded by Nemanja Stojanovic</p> 
+    </footer>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>

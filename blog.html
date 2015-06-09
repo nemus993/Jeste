@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>MDM Visuals</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  
+  <link href="css/photoswipe.css" type="text/css" rel="stylesheet" />  
+    <script type="text/javascript" src="js/klass.min.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/code.photoswipe-3.0.5.js"></script>
+		
+	<script type="text/javascript">
+
+		(function(window, $, PhotoSwipe){
+			
+			$(document).ready(function(){
+				
+				var options = {};
+				$("#Gallery a").photoSwipe(options);
+			
+			});
+			
+			
+		}(window, window.jQuery, window.Code.PhotoSwipe));
+		
+	</script>
+    
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>MDM<a href="index.html">Visuals</a></h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li class="current"><a href="blog.html">GALLERY</a></li>
+          <li><a href="music.html">MUSIC</a></li>
+          <li><a href="video.html">VIDEO</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+        <ul id="Gallery" class="gallery">
+         <li>
+             <a href="images/garden.jpg">
+             <img src="images/Thumb/garden_t.jpg" alt="Image01">
+             </a>
+         </li>
+         <li>
+             <a href="images/girl.jpg">
+             <img src="images/Thumb/girl_t.jpg" alt="Image02">
+             </a>
+         </li>  
+         <li>
+             <a href="images/grampa.jpg">
+             <img src="images/Thumb/grampa_t.jpg" alt="Image03">
+             </a>
+         </li>
+         <li>
+             <a href="images/w1.jpg">
+             <img src="images/Thumb/w1_t.jpg" alt="Image04">
+             </a>
+         </li>
+         <li>
+             <a href="images/wedding.jpg">
+             <img src="images/Thumb/wedding_t.jpg" alt="Image05">
+             </a>
+         </li>
+         <li>
+             <a href="images/DSC_0185.jpg">
+             <img src="images/Thumb/DSC_0185_t.jpg" alt="Image06">
+             </a>
+         </li>
+         <li>
+             <a href="images/DSC_0959.jpg">
+             <img src="images/Thumb/DSC_0959_t.jpg" alt="Image07">
+             </a>
+         </li>
+         <li>
+             <a href="images/DSC_1538.jpg">
+             <img src="images/Thumb/DSC_1538_t.jpg" alt="Image08">
+             </a>
+         </li>
+         <li>
+             <a href="images/DSC_3193.jpg">
+             <img src="images/Thumb/DSC_3193_t.jpg" alt="Image09">
+             </a>
+         </li>
+         <li>
+             <a href="images/DSC_5931.jpg">
+             <img src="images/Thumb/DSC_5931_t.jpg" alt="Image10">
+             </a>
+         </li>
+        </ul>
+    
+  </div>
+</div>
+
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
